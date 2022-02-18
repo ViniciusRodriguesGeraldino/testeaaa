@@ -1,0 +1,5 @@
+inherited frmCadPad1: TfrmCadPad1
+  Caption = 'frmCadPad1'
+  PixelsPerInch = 96
+  TextHeight = 13
+end

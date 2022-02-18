@@ -1,0 +1,51 @@
+unit frmCadastroProduto;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, frmCadPadrao, Data.DB,
+  Datasnap.DBClient, Vcl.StdCtrls, Vcl.ExtCtrls;
+
+type
+  TfrmCadProd = class(TfrmCadPad)
+    lbledtCodigo: TLabeledEdit;
+    lbledtDescricao: TLabeledEdit;
+    procedure FormCreate(Sender: TObject);
+    procedure btnSalvarClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmCadProd: TfrmCadProd;
+
+implementation
+
+uses dataModulo;
+
+{$R *.dfm}
+
+procedure TfrmCadProd.btnSalvarClick(Sender: TObject);
+begin
+  inherited;
+
+  tbl.FieldByName('CODIGO').AsString := lbledtCodigo.Text;
+  tbl.FieldByName('DESCRICAO').AsString := lbledtDescricao.Text;
+
+  tbl.Post;
+  tbl.ApplyUpdates(0);
+
+end;
+
+procedure TfrmCadProd.FormCreate(Sender: TObject);
+begin
+  inherited;
+
+  tbl := DataModule1.tblProduto;
+
+end;
+
+end.

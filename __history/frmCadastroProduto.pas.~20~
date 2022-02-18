@@ -1,0 +1,48 @@
+unit frmCadastroProduto;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, frmCadPadrao, Data.DB,
+  Datasnap.DBClient, Vcl.StdCtrls, Vcl.ExtCtrls, Vcl.Mask, Vcl.DBCtrls;
+
+type
+  TfrmCadProd = class(TfrmCadPad)
+    edtCodigo: TDBEdit;
+    Label1: TLabel;
+    edtDescricao: TDBEdit;
+    Label2: TLabel;
+    procedure FormCreate(Sender: TObject);
+    procedure edtCodigoExit(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmCadProd: TfrmCadProd;
+
+implementation
+
+uses dataModulo;
+
+{$R *.dfm}
+
+procedure TfrmCadProd.edtCodigoExit(Sender: TObject);
+begin
+  inherited;
+  if edtCodigo.Text <> '' then
+    tbl.Locate('CODIGO', edtCodigo.Text, []);
+end;
+
+procedure TfrmCadProd.FormCreate(Sender: TObject);
+begin
+  inherited;
+
+  tbl := DataModule1.tblProduto;
+
+end;
+
+end.

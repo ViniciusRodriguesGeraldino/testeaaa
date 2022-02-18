@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2020/10/24 19:08:14.000.649,=C:\Users\Usuario\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/01/19 18:43:52.000.626,=C:\Users\Usuario\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/07/05 16:58:01.000.078,=C:\Users\Usuario\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/02/16 12:11:02.000.556,=C:\Users\Usuario\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/02/16 12:39:57.000.063,C:\Users\Usuario\Documents\Embarcadero\Studio\Projects\Unit1.pas=D:\Fontes\TesteAgrotis\uPrincipal.pas</Transaction>
+    <Transaction>2022/02/16 12:39:57.000.063,C:\Users\Usuario\Documents\Embarcadero\Studio\Projects\Unit1.dfm=D:\Fontes\TesteAgrotis\uPrincipal.dfm</Transaction>
+    <Transaction>2022/02/16 12:40:09.000.272,C:\Users\Usuario\Documents\Embarcadero\Studio\Projects\Project1.dproj=D:\Fontes\TesteAgrotis\TesteAAA.dproj</Transaction>
+    <Transaction>2022/02/16 12:41:14.000.142,=D:\Fontes\TesteAgrotis\Unit1.pas</Transaction>
+    <Transaction>2022/02/16 13:13:24.000.703,D:\Fontes\TesteAgrotis\Unit1.dfm=D:\Fontes\TesteAgrotis\frmCliente.dfm</Transaction>
+    <Transaction>2022/02/16 13:13:24.000.703,D:\Fontes\TesteAgrotis\Unit1.pas=D:\Fontes\TesteAgrotis\frmCliente.pas</Transaction>
+    <Transaction>2022/02/16 13:21:28.000.115,=D:\Fontes\TesteAgrotis\Unit2.pas</Transaction>
+    <Transaction>2022/02/16 13:21:34.000.186,D:\Fontes\TesteAgrotis\Unit2.pas=D:\Fontes\TesteAgrotis\frmProduto.pas</Transaction>
+    <Transaction>2022/02/16 13:21:34.000.186,D:\Fontes\TesteAgrotis\Unit2.dfm=D:\Fontes\TesteAgrotis\frmProduto.dfm</Transaction>
+    <Transaction>2022/02/16 14:23:59.000.441,=D:\Fontes\TesteAgrotis\Unit3.pas</Transaction>
+    <Transaction>2022/02/16 14:24:14.000.901,D:\Fontes\TesteAgrotis\Unit3.pas=D:\Fontes\TesteAgrotis\frmCadPadrao.pas</Transaction>
+    <Transaction>2022/02/16 14:24:14.000.901,D:\Fontes\TesteAgrotis\Unit3.dfm=D:\Fontes\TesteAgrotis\frmCadPadrao.dfm</Transaction>
+    <Transaction>2022/02/16 14:54:06.000.615,D:\Fontes\TesteAgrotis\frmProduto.pas=</Transaction>
+    <Transaction>2022/02/16 14:54:25.000.415,=D:\Fontes\TesteAgrotis\Unit1.pas</Transaction>
+    <Transaction>2022/02/16 14:54:48.000.619,D:\Fontes\TesteAgrotis\Unit1.dfm=D:\Fontes\TesteAgrotis\frmCadastroProduto.dfm</Transaction>
+    <Transaction>2022/02/16 14:54:48.000.619,D:\Fontes\TesteAgrotis\Unit1.pas=D:\Fontes\TesteAgrotis\frmCadastroProduto.pas</Transaction>
+    <Transaction>2022/02/16 15:12:57.000.341,=D:\Fontes\TesteAgrotis\Unit1.pas</Transaction>
+    <Transaction>2022/02/16 15:15:36.000.583,D:\Fontes\TesteAgrotis\Unit1.dfm=D:\Fontes\TesteAgrotis\dataModulo.dfm</Transaction>
+    <Transaction>2022/02/16 15:15:36.000.583,D:\Fontes\TesteAgrotis\Unit1.pas=D:\Fontes\TesteAgrotis\dataModulo.pas</Transaction>
+    <Transaction>2022/02/16 17:37:34.000.082,D:\Fontes\TesteAgrotis\frmCliente.pas=</Transaction>
+    <Transaction>2022/02/16 17:42:30.000.255,=D:\Fontes\TesteAgrotis\Unit1.pas</Transaction>
+    <Transaction>2022/02/16 17:43:24.000.136,D:\Fontes\TesteAgrotis\Unit1.dfm=D:\Fontes\TesteAgrotis\frmCadastroCliente.dfm</Transaction>
+    <Transaction>2022/02/16 17:43:24.000.136,D:\Fontes\TesteAgrotis\Unit1.pas=D:\Fontes\TesteAgrotis\frmCadastroCliente.pas</Transaction>
+    <Transaction>2022/02/16 18:12:57.000.425,=D:\Fontes\TesteAgrotis\Unit1.pas</Transaction>
+    <Transaction>2022/02/16 18:13:02.000.464,D:\Fontes\TesteAgrotis\Unit1.pas=D:\Fontes\TesteAgrotis\uViaCEP.pas</Transaction>
+    <Transaction>2022/02/16 19:42:21.842,=D:\Fontes\TesteAgrotis\Unit1.pas</Transaction>
+    <Transaction>2022/02/16 19:48:01.488,D:\Fontes\TesteAgrotis\frmPedido.dfm=D:\Fontes\TesteAgrotis\Unit1.dfm</Transaction>
+    <Transaction>2022/02/16 19:48:01.488,D:\Fontes\TesteAgrotis\frmPedido.pas=D:\Fontes\TesteAgrotis\Unit1.pas</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5"/>
+	</ActiveMobileDevice>
+</BorlandProject>

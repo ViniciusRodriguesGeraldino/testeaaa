@@ -1,0 +1,57 @@
+unit uViaCEP;
+
+interface
+
+uses Xml.xmldom, Xml.XMLDoc, IdBaseComponent, IdComponent, IdTCPConnection, IdTCPClient, IdHTTP,
+IdMultipartFormData, System.JSON;
+
+type TCep = class(TObject)
+
+  private
+    FCep : String;
+    FEndereco : String;
+    FBairro : String;
+    FCidade : String;
+    FUf : string;
+    FIBGE : String;
+    procedure BuscaCep;
+  public
+    constructor Create(sCep : String); override;
+
+  end;
+
+implementation
+
+{ TCep }
+
+procedure TCep.BuscaCep;
+var
+ sURL, sResponse : String;
+ httpCliente : TIdHTTP;
+ jsonValue : TJsonValue;
+ jsonOb : TJSONObject;
+begin
+
+  sURL := 'http://viacep.com.br/ws/' + FCep + '/json/';
+
+  httpCliente := TIdHTTP.Create(nil);
+
+  sResponse := httpCliente.Get(sURL);
+
+  if Pos('erro', sResponse) > 0 then
+    Exit;
+
+  json
+
+
+end;
+
+constructor TCep.Create(sCep: String);
+begin
+  inherited;
+  FCep := sCep;
+
+  BuscaCep;
+end;
+
+end.
